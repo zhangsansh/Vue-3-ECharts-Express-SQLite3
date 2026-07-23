@@ -1,0 +1,41 @@
+:root {
+  --bg-deep: #050d1a;
+  --bg-panel: rgba(8, 28, 52, 0.85);
+  --cyan: #00d4ff;
+  --gold: #f0c14b;
+  --text: #e8f4ff;
+  --muted: #8aa4c0;
+  --border: rgba(0, 212, 255, 0.35);
+  --danger: #ff6b6b;
+  --ok: #3ddc97;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  font-family: 'Noto Sans SC', sans-serif;
+  background: var(--bg-deep);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.35);
+  border-radius: 3px;
+}
